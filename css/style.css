@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	width: 100%;
+	background-color: #121b2a;
+	box-shadow: 0px 10px 10px #060707;
+}
+.wrapper{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%
+}
+.menu{
+	width: 75%;
+    float: right;
+    margin-top: 20px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding-left: 79px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffff;
+	display: block;
+	font-family: sans-serif;
+	transition:.5s;
+}
+.menu ul li a:hover{
+	color: #0278be;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	width: 100%;
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 10px 10px #060707;
+}
+.banner_contant{
+	margin-top: 200px;
+    margin-bottom: 70px;
+    width: 45%;
+}
+.banner_contant p:first-child {
+	color: white;
+	font-size: 35px;
+	font-family: sans-serif;
+	margin: 0px 0px;
+}
+.banner_contant h1{
+	color: #0078bd;
+    font-size: 44px;
+    font-family: sans-serif;
+    margin: 10px 0px;
+}
+.banner_contant p{
+	color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 28px;
+    margin-top: -11px;
+}
+.banner_contant button{
+	font-family: sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 0;
+    padding-right: 20px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 220px;
+    margin-left: 0px;
+    transition: .5s;
+}
+.banner_contant button:hover{
+	color: white;
+	background-color: #0078bd;
+}
+.banner_contant button img{
+	width: 30px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+/*banner end*/
+/*news section start*/
+.news{
+	width: 100%;
+	background-color: #121b2a;
+	padding: 50px 0;
+}
+.single_item{
+	width: 30%;
+    background-color: #121b2a;
+    float: left;
+    padding: 2.4%;
+    border-left: 1px solid #fff;
+    transition: .5s;
+}
+.single_item:first-child {
+	padding-left: 0;
+    margin: 0px;
+    border: none;
+}
+.single_item:nth-child(3) {
+	padding-right: 0;
+    margin: 0px;
+}
+.title{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	width: 70%;
+	float: right;
+
+}
+.icon_content h1{
+	font-family: sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 27px 0px 0px;
+    font-weight: 300;
+}
+.icon_content h2{
+	font-family: sans-serif;
+    font-size: 30px;
+    color: #0078bd;
+    margin: 0px;
+}
+.single_item:hover{
+	background-color: #040811;
+}
+.content{}
+.content p{
+	color: #fff;
+    font-family: sans-serif;
+    line-height: 26px;
+}
+/*news section end*/
+/* Contact start*/
+.contact {
+	width: 100%;
+	background-color: #040811;
+}
+.contact_info {
+	padding: 40px 30px 20px;
+    width: 30%;
+    float: left;
+    color: #fff;
+    font-family: sans-serif;
+}
+.contact_info:first-child {
+	padding-left:0;
+}
+.contact_info:nth-child(3) {
+	padding-right:0;
+}
+.contact_info h1{}
+.contact_info p{
+	line-height: 24px;
+}
+.contact_info ul{
+	padding: 0;
+}
+.contact_info ul li{
+	list-style: none;
+	font-weight: 100;
+	padding: 8px 0;
+}
+.contact_info img{
+	width: 100%;
+}
+.info {
+	background-color: rgba(255, 255, 255,.1);
+	padding:15px;
+}
+.info2{
+    margin-left: 15px;
+}
+.info2 h2{
+	margin: 20px 0 5px;
+}
+.info2 p{
+	margin: 0px;
+}
+/* Contact end*/
+/*Footer start*/
+footer{
+	width: 100%;
+	background-color: #121b2c;
+}
+.menu2{
+	float: left;
+	width: 50%;
+}
+.menu2 ul{
+	margin-top: 25px;
+	padding: 0;
+}
+.menu2 ul li{
+	float: left;
+	font-family: sans-serif;
+	list-style: none;
+	padding:0px 15px;
+	border-left: 1px solid #fff;
+}
+.menu2 ul li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+
+.menu2 ul li a{
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+	transition: .5s;
+}
+.menu2 ul li a:hover{
+    color: #0278be;
+}
+.menu2 p{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 35px 0 0 0;
+}
+.symbian_logo{
+	float: right;
+    width: 27%;
+    margin-top: 15px;
+}
+.symbian_logo img{
+	width: 100%;
+}
+
+/*Footer end*/
